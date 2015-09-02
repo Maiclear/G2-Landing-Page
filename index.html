@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="assets/css/grid.css">
 	<link rel="stylesheet" href="assets/css/type.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	<nav class="menu">
@@ -55,6 +56,13 @@
 						<img src="images/equipos.png" alt="">
 					</figure>
 
+					<figure>
+						<img class="specs-icons" src="images/android.png" alt="Android">
+						<img class="specs-icons" src="images/apple.png" alt="Apple">
+						<img class="specs-icons" src="images/windows.png" alt=" Windows">
+						<img class="specs-icons" src="images/linux.png" alt="Linux">
+
+					</figure>
 					<p class="p-specs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deleniti earum vel sapiente quo sequi tenetur sint nemo adipisci amet tempore, facere eum? Deleniti minima sit, tenetur nostrum beatae minus. Ab voluptatum tenetur iste veniam, eaque dicta ipsum ipsam nisi ea nemo esse doloremque a nostrum dolore incidunt dolorem repellendus, in culpa cumque ipsa impedit quae quod!</p>
 
 					<p class="p-specs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quia!</p>
@@ -62,19 +70,19 @@
 
 				<ul class="row clean-list specs-list">
 					<div class="col-4">
-						<li class="specs-list-item">Alarm</li>
-						<li class="specs-list-item">Location</li>
-						<li class="specs-list-item">Lock</li>
+						<li class="specs-list-item"> <span class="icon-alarm "></span> Alarm</li>
+						<li class="specs-list-item"> <span class="icon-location2"></span></span>Location</li>
+						<li class="specs-list-item"> <span class="icon-lock"></span>Lock</li>
 					</div>
 					<div class="col-4">
-						<li class="specs-list-item">Reports</li>
-						<li class="specs-list-item">Pictures</li>
-						<li class="specs-list-item">Screenshots</li>
+						<li class="specs-list-item"> <span class="icon-warning"></span>Reports</li>
+						<li class="specs-list-item"> <span class="icon-images"></span>Pictures</li>
+						<li class="specs-list-item"> <span class="icon-display"></span>Screenshots</li>
 					</div>
 					<div class="col-4">
-						<li class="specs-list-item">Wipe Data</li>
-						<li class="specs-list-item">Messages</li>
-						<li class="specs-list-item">Protect Passwords</li>
+						<li class="specs-list-item"> <span class="icon-database"></span>Wipe Data</li>
+						<li class="specs-list-item"> <span class="icon-bubble2"></span>Messages</li>
+						<li class="specs-list-item"> <span class="icon-key"></span>Protect Passwords</li>
 					</div>
 				</ul>
 			</div>
@@ -83,13 +91,18 @@
 
 		<section class="testimony">
 			<div class="grid-container">
+				<figure class="arrows">
+					<img class="arrow arrow-left" src="images/arrow.png" alt="arrow">
+					<img class="arrow arrow-right" src="images/arrow.png" alt="arrow2">
+				</figure>
+
 				<figure class="user">
-					<img class="user-image" src="images/man.jpg" alt="">
-					<figcaption class="user-info">Juan Cristobal Pazos, 31 años, Chile</figcaption>
+						<img class="user-image" src="images/man.jpg" alt="User">
+						<figcaption class="user-info">Juan Cristobal Pazos, 31 años, Chile</figcaption>
 				</figure>
 
 				<blockquote class="testimony-quote">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas eleifend elit ut mollis. In iaculis augue vitae nisi maximus ultrices molestie vel mi. In dignissim massa odio.</p>
+					<p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas eleifend elit ut mollis. In iaculis augue vitae nisi maximus ultrices molestie vel mi. In dignissim massa odio. "</p>
 				</blockquote>
 			</div>
 		</section>
@@ -100,35 +113,34 @@
 					<h6 class="plans-subtitle">There's a plan for you</h6>
 					<h2 class="plans-title">Choose your plan</h2>
 				</div>
-
 				<div class="row">
-					<section class="plan col-4">
-						<header class="plan-header">
+					<section class="plan col-4 ">
+						<header class="plan-header plan1-header ">
 							<h3>Basic</h3>
 							<p>Free</p>
 						</header>
-						<div class="plan-details">
-							<p>up to 3 devices</p>
+						<div class="plan-details plan1-body">
+							<p>up to <span class=" plan-body-number">3 </span> devices</p>
 							<ul class="clean-list plan-list">
 								<li class="plan-list-item">caracteristica 1<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 2<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 3<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 4<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 5<span>✓</span></li>
-								<li class="plan-list-item">caracteristica 6<span>–</span></li>
-								<li class="plan-list-item">caracteristica 7<span>–</span></li>
-								<li class="plan-list-item">caracteristica 8<span>–</span></li>
+								<li class="plan-list-item list-uncheck">caracteristica 6<span class = " uncheck">–</span></li>
+								<li class="plan-list-item list-uncheck">caracteristica 7<span class = " uncheck">–</span></li>
+								<li class="plan-list-item list-uncheck">caracteristica 8<span class = " uncheck">–</span></li>
 							</ul>
-							<button class="btn btn-plans">Sign up for free</button>
+							<button class="btn btn-plan1">Sign up for free</button>
 						</div>
 					</section>
-					<section class="plan plan-featured col-4">
-						<header class="plan-header">
+					<section class="plan plan-featured col-4 plan2">
+						<header class="plan-header plan2-header">
 							<h3>Personal</h3>
-							<p>$5 usd/month</p>
+							<p><span>$5</span> usd/month</p>
 						</header>
-						<div class="plan-details">
-							<p>up to 3 devices</p>
+						<div class="plan-details plan2-body">
+							<p>up to <span class=" plan-body-number">3 </span> devices</p>
 							<ul class="clean-list plan-list">
 								<li class="plan-list-item">caracteristica 1<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 2<span>✓</span></li>
@@ -137,18 +149,18 @@
 								<li class="plan-list-item">caracteristica 5<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 6<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 7<span>✓</span></li>
-								<li class="plan-list-item">caracteristica 8<span>–</span></li>
+								<li class="plan-list-item list-uncheck">caracteristica 8<span  class = " uncheck">–</span></li>
 							</ul>
-							<button class="btn btn-plan">Choose this plan</button>
+							<button class="btn btn-plan2">Choose this plan</button>
 						</div>
 					</section>
-					<section class="plan col-4">
-						<header class="plan-header">
+					<section class="plan col-4 ">
+						<header class="plan-header plan1-header ">
 							<h3>Home</h3>
-							<p>$15 usd/month</p>
+							<p><span>$15</span> usd/month</p>
 						</header>
-						<div class="plan-details">
-							<p>up to 10 devices</p>
+						<div class="plan-details plan1-body">
+							<p>up to <span class=" plan-body-number">10</span> devices</p>
 							<ul class="clean-list plan-list">
 								<li class="plan-list-item">caracteristica 1<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 2<span>✓</span></li>
@@ -159,33 +171,39 @@
 								<li class="plan-list-item">caracteristica 7<span>✓</span></li>
 								<li class="plan-list-item">caracteristica 8<span>✓</span></li>
 							</ul>
-							<button class="btn btn-plans">Choose this plan</button>
+							<button class="btn btn-plan1">Choose this plan</button>
 						</div>
 					</section>
 				</div>
+			</div>
+		</article>
 
+		<section class="education">
+			<div class="grid-container">
 				<div class="row">
-					<section class="education">
 						<h2 class="col-4 education-title">Business & Education</h2>
-						<ul class="col-4 education-list">
+						<ul class="col-4 education-list clean-list">
 							<li class="education-list-item">Get Plan for your team</li>
 							<li class="education-list-item">All of Plan Features</li>
 							<li class="education-list-item">Centralized administration</li>
 							<li class="education-list-item">Employee privacy</li>
 						</ul>
-						<div class="col-4">
+						<div class="col-4 boton-ed">
 							<button class="btn btn-education">Let's talk</button>
 						</div>
-					</section>
 				</div>
 			</div>
+		</section>
 
-		</article>
 
 	</main>
 
 	<footer class="footer">
 		<div class="grid-container">
+			<figure>
+				<img src="images/preylogo.png" alt="Prey Logo">
+
+			</figure>
 			<nav class="footer-menu">
 				<a class="footer-menu-item" href="">Home</a>
 				<a class="footer-menu-item" href="">Business</a>
@@ -201,6 +219,8 @@
 				<p><small>The name and logo for PLAN are registered trademarks.</small></p>
 			</div>
 		</div>
+
+
 	</footer>
 
 </body>

@@ -1,3 +1,5 @@
+/*-----------------BOTONES-------------*/
+
 [class*='btn-'] {
 	background-color: #1ed760;
 	border: none;
@@ -28,13 +30,33 @@
 	background-color: #1ed760;
 }
 
+.btn-plan1{
+	background-color: rgb(13, 102, 141);
+}
+
+.btn-plan2{
+	background-color: rgb(32, 149, 74);
+}
+
+.boton-ed{
+	padding-top: 4%;
+}
+
+.btn-education{
+	background-color: rgb(52, 130, 171);
+
+}
+
+ /*//---------FIN BOTONES------------*/
+/* ----------------NAV BAR----------------*/
+
 .menu {
 	position: absolute;
 	text-align: center;
 	padding-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1200px;
+	width: 100%;
 	color: #FFF;
 }
 
@@ -56,6 +78,9 @@
 	overflow: hidden;
 	vertical-align: top;
 }
+/*-------------FIN NAVBAR-----------
+
+--------------HEADER---------------*/
 
 .header {
 	background-image: url(../../images/header.jpg);
@@ -71,7 +96,8 @@
 	color: #FFF;
 	padding-right: 300px;
 }
-
+/*
+------------------------THEFT----------------*/
 .theft {
 	background-color: #3eb8f7;
 	padding-top: 40px;
@@ -94,11 +120,12 @@
 	background-size: 100% auto;
 	height: 322px;
 }
-
+/*-----------------------SPECS-------------*/
 .specs {
 	background-color: #F1F1F1;
 	padding-top: 60px;
 	text-align: center;
+	padding-bottom:60px;
 }
 
 .specs-title{
@@ -111,18 +138,64 @@
 
 }
 
+.specs-icons{
+	padding: 0px 2%;
+}
+
 .p-specs{
 	color:rgb(135, 147, 146);
 }
 
+.specs-list{
+	padding: 30px;
+}
 
 .specs-list-item{
 	text-align: left;
 	color : #009DD3;
+	padding-left: 34%;
+	padding-bottom: 2%;
+	text-transform: uppercase;
 }
 
+.specs-list-item span{
+	text-align:center;
+	padding-right: 5%;
+}
+
+/*-------INICIO TESTYMONY---------
+*/
 .testimony{
 	background-color: #1C2B40;
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
+.testimony .grid-container {
+	position: relative;
+}
+
+.arrows{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.arrow-left{
+	left: 0;
+}
+
+.arrow-right{
+	right: 0;
+	transform: translateY(-50%) rotate(180deg);
 }
 
 .user{
@@ -139,9 +212,154 @@
 
 .user-info{
 	color: #FFF;
+	font-size: 70%;
 }
 
 .testimony-quote{
 	color: #FFF;
 	text-align: center;
+	font-style: italic;
+	padding: 0 20%;
+}
+
+/*--------FIN TESTYMONY--------
+---------INICIO PLAN----------*/
+
+.plans{
+	background-color: #F1F1F1;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.plans-subtitle{
+	color: rgb(35, 48, 65);
+}
+
+.plans-title{
+	font-weight: 300;
+	color: rgb(35, 48, 65);
+	padding-bottom: 50px;
+}
+
+.plan-header h3{
+	margin-bottom: 0;
+}
+
+.plan-header p{
+	font-size: 2rem;
+	font-weight: 400;
+}
+.plan-header p span{
+	font-weight: 800;
+	font-size: 3.6rem;
+
+}
+
+.plan1-header{
+	background-color: rgb(2, 115, 163);
+	color: #FFF;
+	padding: 1;
+}
+
+.plan-body-number{
+	font-weight: 600;
+}
+
+.plan1-body{
+	background-color: rgb(0, 141, 200);
+	color: #FFF;
+	padding-bottom: 20px;
+}
+
+.plan2 {
+	transform: scale(1.1);
+	box-shadow: 0 4px 15px rgba(0,0,0, 0.4);
+	padding: 0;
+}
+.plan2-header{
+	background-color: rgb(22, 192, 83);
+	color: #FFF;
+	padding: 1;
+}
+
+.plan2-body{
+	background-color: rgb(30, 215, 96);
+	color: #FFF;
+	padding-bottom: 20px;
+}
+
+.plan-list-item span {
+	font-weight: 800;
+	float: right;
+	text-align: center;
+	/*display: inline-block;*/
+	width: 40px;
+}
+
+.plan-list {
+	padding: 30px 40px;
+	text-align: left;
+}
+ .list-uncheck{
+ 	opacity: 0.6;
+ }
+
+/*.uncheck{
+	font-size: 1.8rem;
+}*/
+/*
+-------FIN PLANS-----------
+*/
+.education{
+	background-color: rgb(62, 184, 247);
+	color: rgb(35, 48, 65);
+}
+
+.education-title{
+	padding-top: 3%;
+}
+
+.education-list{
+	font-size: 70%%;
+	padding-top: 2%;
+	font-weight: 500;
+
+}
+
+
+
+
+
+/*------------FOOTER----------*/
+
+.footer{
+	background-color: rgb(35, 48, 65);
+	padding-bottom: 45px;
+	padding-top: 45px;
+	text-align: center;
+}
+
+.footer-menu {
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	color: #FFF;
+	/*float: left;*/
+}
+
+.footer-menu-item {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+}
+
+
+.copyright{
+	color: rgb(79, 89, 103);
+	padding-top: 50px;
+	line-height: 0;
+	font-weight: 600;
 }
