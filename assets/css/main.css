@@ -247,6 +247,7 @@
 
 .plan-header {
 	overflow : hidden;
+	padding-top: 10px;
 }
 
 .plan-header h3{
