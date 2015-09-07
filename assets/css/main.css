@@ -196,6 +196,7 @@
 .arrow-right{
 	right: 0;
 	transform: translateY(-50%) rotate(180deg);
+	-we
 }
 
 .user{
@@ -321,7 +322,7 @@
 }
 
 .education-list{
-	font-size: 70%%;
+
 	padding-top: 2%;
 	font-weight: 500;
 
