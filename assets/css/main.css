@@ -187,6 +187,7 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 }
 
 .arrow-left{
@@ -196,7 +197,8 @@
 .arrow-right{
 	right: 0;
 	transform: translateY(-50%) rotate(180deg);
-	-we
+	-webkit-transform: translateY(-50%) rotate(180deg);
+
 }
 
 .user{
