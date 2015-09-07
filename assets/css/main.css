@@ -266,7 +266,10 @@
 .plan1-header{
 	background-color: rgb(2, 115, 163);
 	color: #FFF;
-	padding: 1;
+}
+
+.plan1-1-header{
+	padding-bottom:20px;
 }
 
 .plan-body-number{
