@@ -291,13 +291,14 @@
 .plan2-header{
 	background-color: rgb(22, 192, 83);
 	color: #FFF;
-	padding: 1;
+
 }
 
 .plan2-body{
 	background-color: rgb(30, 215, 96);
 	color: #FFF;
 	padding-bottom: 20px;
+	padding-top: 5px;
 }
 
 .plan-list-item span {
