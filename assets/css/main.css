@@ -187,6 +187,7 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 }
 
 .arrow-left{
@@ -196,6 +197,8 @@
 .arrow-right{
 	right: 0;
 	transform: translateY(-50%) rotate(180deg);
+	-webkit-transform: translateY(-50%) rotate(180deg);
+
 }
 
 .user{
@@ -242,6 +245,10 @@
 	padding-bottom: 50px;
 }
 
+.plan-header {
+	overflow : hidden;
+}
+
 .plan-header h3{
 	margin-bottom: 0;
 }
@@ -259,7 +266,10 @@
 .plan1-header{
 	background-color: rgb(2, 115, 163);
 	color: #FFF;
-	padding: 1;
+}
+
+.plan1-1-header{
+	padding-bottom:20px;
 }
 
 .plan-body-number{
@@ -276,17 +286,19 @@
 	transform: scale(1.1);
 	box-shadow: 0 4px 15px rgba(0,0,0, 0.4);
 	padding: 0;
+	-webkit-transform: scale(1.1);
 }
 .plan2-header{
 	background-color: rgb(22, 192, 83);
 	color: #FFF;
-	padding: 1;
+
 }
 
 .plan2-body{
 	background-color: rgb(30, 215, 96);
 	color: #FFF;
 	padding-bottom: 20px;
+	padding-top: 5px;
 }
 
 .plan-list-item span {
@@ -323,7 +335,6 @@
 .education-list{
 	padding-top: 2%;
 	font-weight: 500;
-
 }
 
 
